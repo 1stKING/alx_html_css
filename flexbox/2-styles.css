@@ -380,6 +380,12 @@
   }
   
   /*** 4. CARD ***/
+      /* Section Latest news 
+     ============================= */
+  
+     .section-latest-news .row{
+      flex-direction: row-reverse; 
+   }
   
   /* Card (all styles)
       ============================= */
@@ -455,12 +461,7 @@
   
   /* Card SERVICES
       ============================= */
-     /* Section Latest news 
-     ============================= */
-  
-  .section-latest-news .row{
-     flex-direction: row-reverse; 
-  }
+ 
   .card-services .card-title {
     margin: 0;
   }
