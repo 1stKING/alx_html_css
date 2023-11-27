@@ -454,7 +454,7 @@ ul.row {
 
 .header-container{
   display:flex;
-  justify-content: space-betweeen;
+  justify-content: space-between;
 }
 
 .header {
