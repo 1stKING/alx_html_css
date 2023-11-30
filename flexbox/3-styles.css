@@ -568,7 +568,7 @@ ul.row {
 /* Section Latest news 
      ============================= */
 
-     .section-body .row {
+     .section-latest-news .row {
       flex-direction: row-reverse;
     }
 
