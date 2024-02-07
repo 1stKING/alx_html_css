@@ -5,65 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="1-styles.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="header-Logo">
-                <a href="#">
-                    <img src="images/logo_headphones.png" alt="headphone-logo" width="161" height="32" flex-shrink="0">
-
-                </a>
-            </div>
-            <nav class="navbar-menu">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="#What_we_do" class="nav-link">What we do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Our_results" class="nav-link">Our Results</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Contact_Us" class="nav-link">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- End of navigation menu -->
     <main>
         <!-- Hero Section -->
         <section class="Hero_section">
             <div class="Hero_section">
-                <h1>
-                    Lorem ipsum dolor set amet lorem ipsum
-                </h1>
-                <p>
-                    Lorem ipsum dolor set amet lorem ipsum dolor set
-                </p>
-                <a href="#" class="btn_red">Call to Action</a>
-                <div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
+
+
+                <div class="header-container">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img src="images/logo_headphones.png" alt="headphone-logo" width="161" height="32"
+                                >
+
+                        </a>
+                    </div>
+                    <nav class="navbar-menu">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="#What_we_do" class="nav-link">What we do</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Our_results" class="nav-link">Our Results</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#Contact_Us" class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
+
+                <!-- End of navigation menu -->
+                <section class="hero-content-container">
+                    <div class="hero-content">
+                        <h1>
+                            Lorem ipsum dolor set amet lorem ipsum
+                        </h1>
+                        <p id="sub_heading">
+                            Lorem ipsum dolor set amet lorem ipsum dolor set
+                        </p>
+                        <div class="hero_btn">
+                            <a href="#" class="btn_red">CALL TO ACTION</a>
+                        </div>
+                        <div id="content_info">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            </p>
+                        </div>
+                    </div>
+                </section>
             </div>
         </section>
         <!-- What we do -->
-        <section class="service section What-we-do">
-            <div class="service-body-text">
-                <div>
-                    <h2>
+        <section class="service-section What-we-do">
+            <div class="service-about-container">
+                <div class="service-headin-container">
+                    <h2 class="service-heading-text">
                         What we do...
                     </h2>
                 </div>
-                <div>
-                    <p>
+                <div class="service-body-container">
+                    <p class="service-body-paragraph">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -72,7 +83,7 @@
                 </div>
             </div>
 
-            <div class="service-icons">
+            <div class="service-icons-container">
                 <div>
                     <img src="images/sound-frecuency.svg" alt="sound-frequency-icon">
                     <h3>Lorem ipsum</h3>
@@ -97,54 +108,100 @@
 
         </section>
         <!-- End of what we do -->
-            <!-- Our results speak for themselves -->
-            <section class="results section ">
-                <div class="results-body-text">
-                    <div>
-                        <h2>
-                            Our results speak for themselves
-                        </h2>
-                    </div>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        </p>
+        <!-- Our results speak for themselves -->
+        <section class="results-section-container ">
+            <div class="results-body-text">
+                <div>
+                    <h2>
+                        Our results speak for themselves
+                    </h2>
+                </div>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+            </div>
+
+            <div class="results-icons">
+                <div class="icon-container">
+                    <img class="pentagon" src="images/pentagone.png" alt="pic_of_pentagon">
+                    <div class="icon-text-container">
+                        <h1>+2%</h1>
+                        <p>Lorem ipsum dolor </p>
                     </div>
                 </div>
-    
-                <div class="results-icons">
-                    <div>
-                        <img src="images/sound-frecuency.svg" alt="sound-frequency-icon">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div>
-                        <img src="images/video.svg" alt="video-icon">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div>
-                        <img src="images/music.svg" alt="music-icon">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div>
-                        <img src="images/hearing.svg" alt="hearing-icon">
-                        <h3>Lorem ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="icon-container">
+                    <img class="pentagon" src="images/pentagone.png" alt="pic_of_pentagon">
+                    <div class="icon-text-container">
+                        <h1>+2%</h1>
+                        <p>Lorem ipsum dolor </p>
                     </div>
                 </div>
-    
-            </section>
-            <!-- End of what we do -->
+                <div class="icon-container">
+                    <img class="pentagon" src="images/pentagone.png" alt="pic_of_pentagon">
+                    <div class="icon-text-container">
+                        <h1>+2%</h1>
+                        <p>Lorem ipsum dolor </p>
+                    </div>
+                </div>
+                <div class="icon-container">
+                    <img class="pentagon" src="images/pentagone.png" alt="pic_of_pentagon">
+                    <div class="icon-text-container">
+                        <h1>+2%</h1>
+                        <p>Lorem ipsum dolor </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End of what we do -->
+
+        <!-- Contact Us -->
+        <div class="Contact-Us-Section">
+            <div class="Contact-us-container">
+                <form class="contact-us-form" method="POST" action="#">
+                    <h2>Contact Us</h2>
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter Name" id="name">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" placeholder="Enter e-mail" id="email">
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Your message</label>
+                        <textarea name="comment" id="message" cols="30" rows="5">
+
+                            </textarea>
+                    </div>
+                    <div class="button-container">
+                        <input type="button" value="CALL TO ACTION">
+                    </div>
+                </form>
+            </div>
+        </div>
 
 
 
     </main>
     <footer>
+        <div class="footer-container">
+            <div class="footer-banner">
+                <div>
+                    <img class="footer-logo" src="images/logo_headphones.png" alt="headphones_logo" flex-shrink="1">
+                </div>
+
+                <div>
+                    <img class="footer-social-icons" src="images/social_icons.png" alt="social_icons">
+                </div>
+            </div>
+            <div class="footer-copyright">&copy;Headphones 2020</div>
+        </div>
 
     </footer>
 </body>
